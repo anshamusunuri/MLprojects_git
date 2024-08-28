@@ -1,3 +1,11 @@
+"""
+setup.py serves two primary functions:
+It's the file where various aspects of your project are configured. The primary feature of setup.py is that it contains a global setup() function. The keyword arguments to this function are how specific details of your project are defined. The most relevant arguments are explained in the section below.
+It's the command line interface for running various commands that relate to packaging tasks. To get a listing of available commands, run python3 setup.py --help-commands.
+"""
+
+
+
 from setuptools import find_packages,setup
 from typing import List
 HYPEN_E_DOT = '-e .'
