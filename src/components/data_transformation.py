@@ -24,7 +24,7 @@ from src.utils import save_object
 #This automatic initialization allows you to create instances of the data class with concise and clean syntax, making your code more elegant and less prone to errors.
 @dataclass
 class DataTransformationConfig:
-    preprocessor_obj_file_path=os.path.join('artifacts',"proprocessor.pkl")
+    preprocessor_obj_file_path=os.path.join('artifacts',"preprocessor.pkl")
 #main function responsible for data transformation
 class DataTransformation:
     def __init__(self):
