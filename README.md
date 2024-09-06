@@ -1,2 +1,6 @@
-## ML projects - end to end project steps included
+ML projects - end to end project template
+the project takes the student test performance scores dataset and tries to analysis their performance.
+parameters included: 
+Techniques tried:
+
 
